@@ -594,8 +594,10 @@ function App() {
       {activeTab === 'marketing' && (
         <main className="main-content">
           <div className="title-row">
-            <h1 className="page-title">🪄 AI Marketing Agency</h1>
-            <p style={{ color: 'var(--text-secondary)', marginTop: '8px' }}>상품 이미지 한 장으로 미국/일본 메인 채널 카피와 썸네일을 3초 만에 생성합니다.</p>
+            <div>
+              <h1 className="page-title">🪄 AI Marketing Agency</h1>
+              <p style={{ color: 'var(--text-secondary)', marginTop: '8px' }}>상품 이미지 한 장으로 미국/일본 메인 채널 카피와 썸네일을 3초 만에 생성합니다.</p>
+            </div>
           </div>
           <div style={{ display: 'flex', gap: '30px' }}>
             <div style={{ flex: 1 }}>
@@ -648,8 +650,10 @@ function App() {
       {activeTab === 'caas' && (
         <main className="main-content">
           <div className="title-row">
-            <h1 className="page-title">🤝 CaaS 투자 매칭(Funding Funding)</h1>
-            <p style={{ color: 'var(--text-secondary)', marginTop: '8px' }}>AI 예측 90% 이상 유망 프로젝트를 위한 마케팅 초기 자본 원클릭 심사 보드입니다.</p>
+            <div>
+              <h1 className="page-title">🤝 CaaS 투자 매칭(Funding Funding)</h1>
+              <p style={{ color: 'var(--text-secondary)', marginTop: '8px' }}>AI 예측 90% 이상 유망 프로젝트를 위한 마케팅 초기 자본 원클릭 심사 보드입니다.</p>
+            </div>
           </div>
           <div style={{ display: 'flex', gap: '30px' }}>
             <div style={{ flex: 1, display: 'flex', flexDirection: 'column', gap: '20px' }}>
